@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>本月运势</title>
+</head>
+<body>
+<form action="http://127.0.0.1:5000/" method="get">
+<div>
+    <h1>这是本月运势</h1>
+        <div>
+          <select name="consName">
+          <option value ="天秤座">天秤座</option>
+          <option value ="处女座">处女座</option>
+          <option value="白羊座">白羊座</option>
+          <option value="双子座">双子座</option>
+          <option value ="天蝎座">天蝎座</option>
+          <option value ="狮子座">狮子座</option>
+          <option value="水瓶座">水瓶座</option>
+          <option value="双子座">双子座</option>
+          <option value ="双鱼座">双鱼座</option>
+          <option value ="金牛座">金牛座</option>
+          <option value="射手座">射手座</option>
+          <option value="巨蟹座">巨蟹座</option>
+        </select>
+        </select>
+        </div>
+    <div>
+        <select name="datetime">
+          <option value ="today">今日运势</option>
+          <option value ="tomorrow">明日运势</option>
+          <option value="weekend">本周运势</option>
+          <option value="month">本月运势</option>
+        </select>
+    </div>
+    <input type="submit">
+</div>
+</form>
+    <div style="--layout-center: auto">
+            <section>
+                <span>name：{{ name }}</span></br>
+                <span>date：{{ date }}</span></br>
+                <span>all：{{ all }}</span></br>
+                <span>health:{{ health }}</span></br>
+                <span>month:{{ month }}</span></br>
+                <span>love:{{ love }}</span></br>
+                <span>money:{{ money }}</span></br>
+                <span>work:{{ work }}</span></br>
+            </section>
+    </div>
+</body>
+</html>

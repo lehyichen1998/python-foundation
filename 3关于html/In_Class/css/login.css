@@ -1,0 +1,10 @@
+.mydiv {
+            background-color: burlywood;
+            width: 320px;
+            height: 320px;
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }

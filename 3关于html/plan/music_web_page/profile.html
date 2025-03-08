@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>音乐歌曲页面</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <!--什么是<header> 标签？
+    <header> 标签定义文档的页眉（介绍信息）。-->
+    <header>
+        <!--引用样式文件-->
+        <h1 class="big-title translate" data-speed="0.1">欢迎光临</h1>
+    </header>
+
+    <section>
+        <div class="shadow"></div>
+        <!--左边的文本样式-->
+        <div class="container">
+            <div class="content opacity">
+                <h3 class="title">听首歌吧！<div class="border"></div></h3>
+                <p class="text">《Love Story》的创作背景是小美女在很年轻的时候对一个比她岁数大很多的男士略有好感，
+                    但是她父母坚决反对她与那个男士交往。于是小美一赌气把自己关在房间里不出来，1个小时后写了这首歌。
+                    意思就是说她喜欢那个男士就像罗密欧与朱丽叶一样，都遭到家里人的反对，
+                    描绘了一对不得不把爱情深深地埋在心里的可怜恋人。</p>
+            </div>
+            <!--创建一个div容器存放 视频-->
+            <div class="imgContainer opacity">
+                <!--页面嵌套标签-->
+                <iframe width="390" height="220" src="https://www.youtube-nocookie.com/embed/8xg3vE8Ie_E"></iframe>
+            </div>
+        </div>
+    </section>
+    <!--引用js文件实现页面运转-->
+    <script src="profile.js"></script>
+</body>
+</html>

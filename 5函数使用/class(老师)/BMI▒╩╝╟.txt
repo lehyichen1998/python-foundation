@@ -1,0 +1,21 @@
+
+# 通过终端 或者 cmd 下载一个软件压缩包
+# 第三方包的一个安装凡是；
+终端   : pip install pyinstaller
+cmd   : pip install pyinstaller
+
+# 打包成exe执行文件的话使用
+1 打开你要打包的文件夹
+2 找到文件 ，点击文件，打开windows power shell；
+    pyinstaller -F 文件名(bim.py)
+
+# 文件格式
+图片 ：1.png, 1.jpg
+音乐 : 1.mp3
+视屏 ：1.mp4
+网页 ： .html
+windows ： .exe
+
+
+# lib文件夹查找
+
